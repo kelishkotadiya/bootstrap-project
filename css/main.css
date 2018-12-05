@@ -1,0 +1,8 @@
+.nav{
+    font-size: 1.2em;
+}
+.my-header{
+    height: 40vh;
+    background-image: url("../img/img6.jpg");
+    background-size: cover;
+}
