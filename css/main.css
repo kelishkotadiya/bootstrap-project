@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 .nav{
     font-size: 1.2em;
 }
-.my-header{
-    height: 40vh;
+
+.container-fluid{
+    font-size: 3.55em;
+    color: rosybrown;/*burlywood;*/
     background-image: url("../img/img6.jpg");
+    height: 40vh;
     background-size: cover;
+    font-family: 'Permanent Marker',Serif;
+}
+
+.rounded-circle{
+    height: 20vh;
+    width: 20vh;
 }
