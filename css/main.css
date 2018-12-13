@@ -28,12 +28,9 @@ body{
 }
 
 .container{
+    /*we talked about width in mobile view*/
     width: 90vw;
     align-items: center;
-}
-
-.card{
-    height: 20rem;
 }
 
 div h6{
@@ -54,9 +51,9 @@ label{
     color: white;
 }
 
-/*we talked about my media queries and make columns in home page*/
+/*we talked about my media queries(make in small-medium break point) and make columns in home page*/
 
-@media (min-width: 480px) {
+@media (min-width: 640px) {
     .container{
         width: 80vw;
     }

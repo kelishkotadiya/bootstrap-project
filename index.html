@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css"/>
     <title>Bootstrap-Home</title>
-
+    <style>
+        .card{
+            height: 17rem;
+        }
+    </style>
 </head>
 <body>
 
@@ -22,51 +26,73 @@
     <p class="align-self-center">Kelish Kotadiya</p>
 </div>
 
-<div class="container pt-4 pb-4">
+<!--<div class="container pt-4 pb-4">
     <li class="list-group-item mb-4"><h4><i class="fab fa-js" style="color: greenyellow;"></i> &nbsp;Javascript</h4><h6>sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s</h6></li>
     <li class="list-group-item mb-4"><h4><i class="fab fa-python" style="color: midnightblue;"></i> &nbsp;Python</h4><h6>sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s</h6></li>
     <li class="list-group-item mb-4"><h4><i class="fab fa-html5" style="color: orangered;"></i> &nbsp;HTML</h4><h6>sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s</h6></li>
     <li class="list-group-item mb-4"><h4><i class="fas fa-database" style="color: deepskyblue;"></i> &nbsp;Database</h4><h6>sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s</h6></li>
     <li class="list-group-item mb-4"><h4><i class="fab fa-css3-alt" style="color: royalblue;"></i> &nbsp;CSS</h4><h6>sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s</h6></li>
     <li class="list-group-item"><h4><i class="fab fa-sass" style="color: deeppink;"></i> &nbsp;Sass</h4><h6>sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s</h6></li>
-</div>
+</div>-->
 
 
 
+<!--
+ We already talked about to make columns in home page. So I make a cards to make columns in my output.
+-->
 
-<!--<div class="container">
-    <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-2">
-            <h3><i class="fab fa-html5"></i>  Java script</h3>
-            sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s
+<div class="container">
+    <div class="row pt-4">
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5><i class="fab fa-js" style="color: greenyellow;"></i> &nbsp;Javascript</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-2">
-            <h3><i class="fab fa-html5"></i>Java script</h3>
-            sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5><i class="fab fa-python" style="color: midnightblue;"></i> &nbsp;Python</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-2">
-            <h3><i class="fab fa-html5"></i>Java script</h3>
-            sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5><i class="fab fa-html5" style="color: orangered;"></i> &nbsp;HTML</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-2">
-            <i class="fab fa-html5"></i><h3>Java script</h3>
-            sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5><i class="fas fa-database" style="color: deepskyblue;"></i> &nbsp;Database</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-2">
-            <i class="fab fa-html5"></i><h3>Java script</h3>
-            sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5><i class="fab fa-css3-alt" style="color: royalblue;"></i> &nbsp;CSS</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-2">
-            <i class="fab fa-html5"></i><h3>Java script</h3>
-            sjs jnsd jdnsd  sdjsnd sjdnjsn sndjsndjsdnd jsdnjd ms djnsj dmsndjsndm smd js dmsm djsmd smdjsndm smdms djnsmd ms mjd js dm s
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5><i class="fab fa-sass" style="color: deeppink;"></i> &nbsp;Sass</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
         </div>
     </div>
-</div>-->
+</div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
