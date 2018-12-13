@@ -5,7 +5,7 @@
 }
 
 .container-fluid{
-    font-size: 3.1em;
+    font-size: 2.8em;
     color: white;/*rosybrown;*/
     background-image: url("../img/img9.jpg");
     width: 100%;
@@ -19,12 +19,16 @@
     width: 20vh;
 }
 
+.list-group-item{
+
+}
+
 body{
     background-color: #080f21;
 }
 
 .container{
-    width: 80vw;
+    width: 90vw;
     align-items: center;
 }
 
@@ -43,8 +47,17 @@ div h4,h5{
 
 label{
     color: white;
+    font-size: 1.15em;
 }
 
 .form-text{
     color: white;
+}
+
+/*we talked about my media queries and make columns in home page*/
+
+@media (min-width: 480px) {
+    .container{
+        width: 80vw;
+    }
 }
